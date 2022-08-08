@@ -3,14 +3,15 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.Write("Введите число a: ");
-int a = int.Parse(Console.ReadLine());
+Console.Write("Введите число N: ");
+int N = int.Parse(Console.ReadLine());
 
 int i = 2;
 
-  Console.Write($"{a} -> ");
+Console.Write($"{N} -> ");
 
-while (i<=a) {
+while (i <= N)
+{
   Console.Write($"{i} ");
   i = i + 2;
 }
