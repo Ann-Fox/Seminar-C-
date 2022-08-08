@@ -1,0 +1,15 @@
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\bin\Debug\net6.0\task000_Sqr.exe
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\bin\Debug\net6.0\task000_Sqr.deps.json
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\bin\Debug\net6.0\task000_Sqr.runtimeconfig.json
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\bin\Debug\net6.0\task000_Sqr.dll
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\bin\Debug\net6.0\task000_Sqr.pdb
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\task000_Sqr.csproj.AssemblyReference.cache
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\task000_Sqr.GeneratedMSBuildEditorConfig.editorconfig
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\task000_Sqr.AssemblyInfoInputs.cache
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\task000_Sqr.AssemblyInfo.cs
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\task000_Sqr.csproj.CoreCompileInputs.cache
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\task000_Sqr.dll
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\refint\task000_Sqr.dll
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\task000_Sqr.pdb
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\task000_Sqr.genruntimeconfig.cache
+D:\Дела\2022\10 GeekBrains\04 Знакомство с язаками программирования (семинар)\Seminar\Examples\task000_Sqr\obj\Debug\net6.0\ref\task000_Sqr.dll
