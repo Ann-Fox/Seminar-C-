@@ -10,8 +10,11 @@ int a = int.Parse(Console.ReadLine());
 Console.Write("Введите число b: ");
 int b = int.Parse(Console.ReadLine());
 
-if (a*a == b || b*b == a) {
-Console.WriteLine($"{a}, {b} -> yes");
-} else {
+if (a * a == b || b * b == a)
+{
+  Console.WriteLine($"{a}, {b} -> yes");
+}
+else
+{
   Console.WriteLine($"{a}, {b} -> no");
 }
