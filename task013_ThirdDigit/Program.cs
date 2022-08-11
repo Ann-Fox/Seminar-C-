@@ -6,6 +6,27 @@
 Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 
-int num21 = number / 100;
-int num3 = num21 % 10;
-Console.WriteLine($"{number} -> {num3}");
+if (number < 100) {
+Console.WriteLine($"{number} -> третьей цифры нет");
+}
+
+while(number > 1000) {
+  number = number / 10;
+  Console.WriteLine(number);
+
+// if (99 < number && number< 1000)
+//  {
+//   num3 = number % 10;
+//   Console.WriteLine($"{number} -> {num3}");
+// } 
+// else if (number < 100) 
+// {
+// Console.WriteLine($"{number} -> третьей цифры неt}");
+// }
+
+}
+
+
+Console.WriteLine($"{number} -> {number % 10}");
+
+

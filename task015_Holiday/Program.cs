@@ -13,7 +13,7 @@ if (0 < day && day < 6)
 {
   Console.WriteLine($"{day} -> no");
 }
-else if (5 < day && day < 8)
+else if (day == 6 || day == 7)
 {
   Console.WriteLine($"{day} -> yes");
 }
