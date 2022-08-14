@@ -4,10 +4,30 @@
 // 5 -> 1, 8, 27, 64, 125
 
 Console.Write("Введите число: ");
-int N = int.Parse(Console.ReadLine);
+int N = int.Parse(Console.ReadLine());
 
-for (int i = 1; i < N; i++)
+
+if (N > 0)
 {
-int k = Math.Pow(i, 3);
-Console.Write(k);
+  Console.Write("N -> ");
+
+  for (int i = 1; i <= N; i++)
+  {
+    // double k = Math.Pow(i, 3);
+    // Console.Write(k + ", ");
+    if (i == N)
+    {
+      Console.Write(Math.Pow(i, 3));
+    }
+    else
+    {
+      Console.Write(Math.Pow(i, 3) + ", ");
+    }
+  }
 }
+else
+{
+  Console.Write("Введено некорректное число");
+}
+
+
