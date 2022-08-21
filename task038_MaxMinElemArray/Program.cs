@@ -9,14 +9,14 @@ double[] GetArray(int size)
   for (int i = 0; i < size; i++)
   {
     res[i] = Math.Round((new Random().NextDouble() * 100));
-        // res[i] = Math.Round((new Random().NextDouble() * 100),2); округление до 2 знаков после запятой
+    // res[i] = Math.Round((new Random().NextDouble() * 100),2); округление до 2 знаков после запятой
 
   }
   return res;
 }
 
 
-double MaxMinSum(double[] arr)
+double DifferenceMaxMin(double[] arr)
 {
   double max = arr[0];
   double min = arr[0];
@@ -28,7 +28,7 @@ double MaxMinSum(double[] arr)
   Console.WriteLine($"max = {max}");
 
 
-   for (int i = 1; i < arr.Length; i++)
+  for (int i = 1; i < arr.Length; i++)
   {
     min = (arr[i] < min) ? arr[i] : min;
   }
@@ -39,7 +39,7 @@ double MaxMinSum(double[] arr)
 }
 
 double[] array = GetArray(5);
-Console.WriteLine($"[{string.Join(" ", array)}] -> {MaxMinSum(array)}");
+Console.WriteLine($"[{string.Join(" ", array)}] -> {DifferenceMaxMin(array)}");
 
 
 
