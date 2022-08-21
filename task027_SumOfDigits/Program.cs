@@ -6,10 +6,12 @@
 Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine());
 
+
 int Summ(int a)
 {
   int i = 0;
   int sum = 0;
+
   // int b = 0;
   while (a > 0)
   {
