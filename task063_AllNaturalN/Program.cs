@@ -13,11 +13,13 @@ string NumbersFor(int N)
 }
 
 //Если первый аргумент не задан?
-string NumbersRec(int i, int N)
+string NumbersRec(int N)
 {
-  if (i <= N) return $"{i} " + NumbersRec(i+1,N);
-  else return String.Empty;
+  int i = 1;
+  if (i == N) return N.ToString();
+  return N + " " + NumbersRec(N - 1); 
+  
 }
 
 Console.WriteLine(NumbersFor(5));
-Console.WriteLine(NumbersRec(1,5)); 
+Console.WriteLine(NumbersRec(5));

@@ -12,7 +12,7 @@ int PowerFor(int a, int b)
 int PowerRec(int a, int b)
 {
   if (b == 0) return 1;
-  else return PowerRec(a, b - 1) * a;
+  return a * PowerRec(a, b - 1);
 }
 
 Console.WriteLine(PowerFor(3, 5));
