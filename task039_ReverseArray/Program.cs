@@ -23,23 +23,23 @@ int[] PeversArray(int[] array)
     //   Console.WriteLine($"{i}: {result[i]}");
     //   Console.WriteLine("---------");
     // }
-    
+
   }
   return result;
 }
 
 int[] PeversArray2(int[] array)
+{
+  for (int i = 0; i < array.Length / 2; i++)
   {
-    for (int i = 0; i < array.Length / 2; i++)
-    {
-      int temp = array[i];
-      array[i] = array[array.Length - 1 - i];
-      array[array.Length - 1 - i] = temp;
-    }
-    return array;
+    int temp = array[i];
+    array[i] = array[array.Length - 1 - i];
+    array[array.Length - 1 - i] = temp;
   }
+  return array;
+}
 
-  int[] myArray = GetArray(5, 0, 10);
-  Console.WriteLine(String.Join(" ", myArray));
-  Console.WriteLine(String.Join(" ", PeversArray(myArray)));
-  Console.WriteLine(String.Join(" ", PeversArray2(myArray)));
+int[] myArray = GetArray(5, 0, 10);
+Console.WriteLine(String.Join(" ", myArray));
+Console.WriteLine(String.Join(" ", PeversArray(myArray)));
+Console.WriteLine(String.Join(" ", PeversArray2(myArray)));

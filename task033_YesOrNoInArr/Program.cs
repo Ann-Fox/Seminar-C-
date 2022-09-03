@@ -4,27 +4,27 @@
 
 bool FindArray(int[] arr, int num)
 {
-    for (int i = 0; i < arr.Length; i++)
+  for (int i = 0; i < arr.Length; i++)
+  {
+    if (arr[i] == num)
     {
-        if (arr[i] == num)
-        {
-            return true;
-        }
+      return true;
     }
-    
-    return false;
+  }
+
+  return false;
 }
 
 int[] GetArr(int num)
 {
-    int[] arr = new int[num];
+  int[] arr = new int[num];
 
-    for (int i = 0; i < arr.Length; i++)
-    {
-        Console.Write("введите значение элемента маcсива =");
-        arr[i] = int.Parse(Console.ReadLine());
-    }
-    return arr;
+  for (int i = 0; i < arr.Length; i++)
+  {
+    Console.Write("введите значение элемента маcсива =");
+    arr[i] = int.Parse(Console.ReadLine());
+  }
+  return arr;
 }
 
 Console.Write("размер маcсива =");
@@ -35,7 +35,7 @@ Console.Write("Число для поиска: ");
 int number = int.Parse(Console.ReadLine());
 if (FindArray(array, number))
 {
-    Console.WriteLine("Да");
+  Console.WriteLine("Да");
 }
 else
-Console.WriteLine("Нет");
+  Console.WriteLine("Нет");
