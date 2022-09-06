@@ -5,3 +5,29 @@
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 
+// Не реалидовано: массив из неповторяющихся двузначных чисел
+int[,,] GetArray(int x, int y, int z, int minValue, int maxValue)
+{
+  int[,,] result = new int[x, y, z];
+  for (int i = 0; i < x; i++)
+    for (int j = 0; j < y; j++)
+      for (int k = 0; k < z; k++)
+        result[i, j, k] = new Random().Next(minValue, maxValue + 1);
+  return result;
+}
+
+void PrintArray(int[,,] array)
+{
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      for (int k = 0; k < array.GetLength(2); k++)
+      Console.Write($"{array[i, j, k]}({j},{k},{i}) ");
+      Console.WriteLine();
+    }
+  }
+}
+
+int[,,] myArray = GetArray(2, 2, 2, 10, 100);
+PrintArray(myArray);
