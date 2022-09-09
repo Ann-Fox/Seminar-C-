@@ -37,6 +37,7 @@ void PrintArray(int[,] array)
     Console.WriteLine();
   }
 }
+
 Console.Write("m= ");
 int m = int.Parse(Console.ReadLine());
 Console.Write("n= ");
